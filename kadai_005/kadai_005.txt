@@ -1,0 +1,18 @@
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutoria> cd git_challenge
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutorial\git_challenge> git init
+Initialized empty Git repository in C:/Users/touentei/Desktop/侍エンジニア/05_git_tutorial/git_challenge/.git/
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutorial\git_challenge> echo "Hello,world!" >> hello_world.txt
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutorial\git_challenge> git add .
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutorial\git_challenge> git commit -m "hello_word.txtを追加"
+[main (root-commit) 2435825] hello_word.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutorial\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutorial\git_challenge> git add .
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutorial\git_challenge> git commit -m "日本語訳を追記"
+[main f61b86c] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutorial\git_challenge> git log --oneline
+f61b86c (HEAD -> main) 日本語訳を追記
+2435825 hello_word.txtを追加
+PS C:\Users\touentei\Desktop\侍エンジニア\05_git_tutorial\git_challenge>
